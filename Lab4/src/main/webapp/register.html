@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Lab3</title>
+</head>
+<body>
+<center>
+<h1>Student Registration</h1>
+<form action="register">
+<table>
+<tr>
+<td>Name:</td>
+<td><input type="text" name="name" value="Satish"/>
+</tr>
+<tr>
+<td>Email:</td>
+<td><input type="text" name="email"/></td>
+</tr>
+<tr>
+<td>Phone:</td>
+<td><input type="text" name="phone"/></td>
+</tr>
+<tr>
+<td>Gender:</td>
+<td>
+<input type="radio" name="gender" value="Male"/>Male
+<input type="radio" name="gender" value="Female"/>Female
+</td>
+</tr>
+<tr>
+<td>Coruses:</td>
+<td>
+<input type="checkbox" name="course" value="Java"/>Java <br/>
+<input type="checkbox" name="course" value="SpringBoot"/>SpringBoot<br/>
+<input type="checkbox" name="course" value="Angular"/>Angular<br/>
+<input type="checkbox" name="course" value="ReactJS"/>ReactJS<br/>
+</td>
+</tr>
+<tr>
+<td>Timings:</td>
+<td>
+<select name ="timings">
+<option value="Select">Select</option>
+<option value="2:30PM-3:30PM"/>2:30PM-3:30PM
+<option value="2:30PM-3:30PM"/>7:30PM-8:30PM
+<option value="2:30PM-3:30PM"/>9:00AM-10:00AM
+</select>
+</td>
+</tr>
+<tr>
+<td>Remarks:</td>
+<td>
+<textarea name="remarks" rows="5" cols="25"></textarea>
+</td>
+</tr>
+<tr>
+
+<td colspan="2" align="center">
+<input type="submit" value="Register You Details">
+</td>
+</tr>
+</table>
+</form>
+</center>
+</body>
+</html>
