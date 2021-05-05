@@ -6,6 +6,8 @@ import java.io.Writer;
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebInitParam;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -13,7 +15,16 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class HaiServlet
  */
-
+@WebServlet(
+		name="haiServlet",
+		urlPatterns= {"/hai"},
+		initParams ={
+				@WebInitParam(
+						name="email",
+						value="HaiSatish@gmail.com"
+						)
+		}
+		)
 public class HaiServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 

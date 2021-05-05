@@ -14,7 +14,7 @@
 		<param-name>website</param-name>
 		<param-value>https://github.com/spd61185</param-value>
 	</context-param>
-	
+
 	<servlet>
 		<servlet-name>helloServlet</servlet-name>
 		<servlet-class>com.satishlabs.HelloServlet</servlet-class>
@@ -27,16 +27,16 @@
 		<servlet-name>helloServlet</servlet-name>
 		<url-pattern>/hello</url-pattern>
 	</servlet-mapping>
-	
+
 	<servlet>
-		<servlet-name> </servlet-name>
+		<servlet-name>haiServlet</servlet-name>
 		<servlet-class>com.satishlabs.HaiServlet</servlet-class>
 		<init-param>
 			<param-name>email</param-name>
 			<param-value>Shrikanth@gmail.com</param-value>
 		</init-param>
 	</servlet>
-	
+
 	<servlet-mapping>
 		<servlet-name>haiServlet</servlet-name>
 		<url-pattern>/hai</url-pattern>
