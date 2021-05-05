@@ -29,7 +29,7 @@
 	</servlet-mapping>
 	
 	<servlet>
-		<servlet-name>haiServlet</servlet-name>
+		<servlet-name> </servlet-name>
 		<servlet-class>com.satishlabs.HaiServlet</servlet-class>
 		<init-param>
 			<param-name>email</param-name>
